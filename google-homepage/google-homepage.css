@@ -1,0 +1,45 @@
+.maingooglelogo {
+  margin: 0 auto;
+  width: 500px;
+  padding-top: 50px;
+}
+
+.header {
+  margin-top: 10px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+}
+
+.header li {
+  display: inline-block;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.emptyspace1, .emptyspace2, .emptyspace3, .emptyspace4 {
+  padding: 0 5px 0 5px;
+}
+
+.googleapps {
+  width: 30px;
+  height: 30px;
+  vertical-align: -8px;
+}
+
+.SignIn {
+  color: white;
+  background-color: Dodgerblue;
+  font-weight: bold;
+  height: 35px;
+  border-style: solid;
+  border-radius: 10%;
+}
