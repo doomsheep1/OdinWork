@@ -1,14 +1,19 @@
-.maingooglelogo {
-  margin: 0 auto;
-  width: 500px;
-  padding-top: 50px;
+div {
+  resize: both;
 }
 
-.header {
+.maingooglelogo {
+  margin: 0 auto;
+  width: 380px;
+  padding-top: 50px;
+  height: 280px;
+}
+
+header {
   margin-top: 10px;
 }
 
-.header ul {
+header ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -17,15 +22,15 @@
   font-size: 16px;
 }
 
-.header li {
+header li {
   display: inline-block;
 }
 
-.header a {
+header a {
   text-decoration: none;
 }
 
-.emptyspace1, .emptyspace2, .emptyspace3, .emptyspace4 {
+.emptyspace1, .emptyspace2, .emptyspace3, .emptyspace4, .emptyspace5 {
   padding: 0 5px 0 5px;
 }
 
@@ -42,4 +47,81 @@
   height: 35px;
   border-style: solid;
   border-radius: 10%;
+  -moz-appearance: button;
+}
+
+.search input[type=text] {
+  display: block;
+  margin: auto;
+  width: 550px;
+  max-width: 75%;
+  height: 40px;
+  position: relative;
+  bottom: 20px;
+  left: -5px;
+}
+
+.twobuttons {
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+
+.twobuttons input[type=submit] {
+  border: none;
+  width: 200px;
+  height: 50px;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #cdcccc;
+  -moz-appearance: button;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #e9e9e9;
+  min-width: 1845px;
+  width: 100%;
+}
+
+.currentcountry {
+  border-bottom: 1px solid #a4a4a4;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  padding: 5px 0 25px 10px;
+}
+
+.leftsmallerstuff {
+  display: inline-block;
+  float: left;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  font-family: arial, sans-serif;
+}
+
+.leftsmallerstuff a {
+  text-decoration: none;
+}
+
+.biggerspace1, .biggerspace2 {
+  padding: 0 10px 0 10px;
+}
+
+.rightsmallerstuff {
+  font-family: arial, sans-serif;
+  float: right;
+  position: relative;
+  top: 10px;
+
+}
+
+.rightsmallerstuff a {
+  text-decoration: none;
 }
